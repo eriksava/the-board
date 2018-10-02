@@ -61,7 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AlEntrarHaz.cs" />
     <Compile Include="Assets\Scripts\ControladorTablero.cs" />
+    <Compile Include="Assets\Scripts\Rotar.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/eriksava/Desktop/UNITY/EL TABLERO/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

@@ -10,6 +10,8 @@ public class Rotar : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
         transform.Rotate(direccion);
+
 	}
 }

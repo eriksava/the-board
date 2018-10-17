@@ -11,18 +11,20 @@ public class AlEntrarHaz : MonoBehaviour
 
     Transform posicion;
 
-
     private void Start()
+
     {
         posicion = transform;
     }
 
     private void OnTriggerEnter(Collider other)
+
     {
+
         AudioSource.PlayClipAtPoint(clip, posicion.position, volumen);
         Destroy(this.gameObject);
-    }
 
+    }
 
 
 }
